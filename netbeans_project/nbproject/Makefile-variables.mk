@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU_Custom-MacOSX
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU_Custom-MacOSX
-CND_ARTIFACT_NAME_Debug=sources
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU_Custom-MacOSX/sources
+CND_ARTIFACT_NAME_Debug=netbeans_project
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU_Custom-MacOSX/netbeans_project
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU_Custom-MacOSX/package
-CND_PACKAGE_NAME_Debug=sources.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU_Custom-MacOSX/package/sources.tar
+CND_PACKAGE_NAME_Debug=netbeansproject.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU_Custom-MacOSX/package/netbeansproject.tar
 # Release configuration
 CND_PLATFORM_Release=GNU_Custom-MacOSX
 CND_ARTIFACT_DIR_Release=dist/Release/GNU_Custom-MacOSX
-CND_ARTIFACT_NAME_Release=sources
-CND_ARTIFACT_PATH_Release=dist/Release/GNU_Custom-MacOSX/sources
+CND_ARTIFACT_NAME_Release=netbeans_project
+CND_ARTIFACT_PATH_Release=dist/Release/GNU_Custom-MacOSX/netbeans_project
 CND_PACKAGE_DIR_Release=dist/Release/GNU_Custom-MacOSX/package
-CND_PACKAGE_NAME_Release=sources.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU_Custom-MacOSX/package/sources.tar
+CND_PACKAGE_NAME_Release=netbeansproject.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU_Custom-MacOSX/package/netbeansproject.tar
 #
 # include compiler specific variables
 #

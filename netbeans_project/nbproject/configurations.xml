@@ -35,6 +35,18 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>lib</pElem>
+            <pElem>lib/mysql-connector/include</pElem>
+            <pElem>lib/mysql-connector/include/cppconn</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>lib/mysql-connector/lib/libmysqlcppconn-static.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
       </compileType>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
