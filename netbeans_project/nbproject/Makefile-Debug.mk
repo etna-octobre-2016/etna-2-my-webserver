@@ -14,14 +14,14 @@ GREP=grep
 NM=nm
 CCADMIN=CCadmin
 RANLIB=ranlib
-CC=gcc
-CCC=g++-4.9
-CXX=g++-4.9
+CC=gcc-4.9
+CCC=g++
+CXX=g++
 FC=gfortran
 AS=as
 
 # Macros
-CND_PLATFORM=GNU_Custom-MacOSX
+CND_PLATFORM=GNU_custom-MacOSX
 CND_DLIB_EXT=dylib
 CND_CONF=Debug
 CND_DISTDIR=dist

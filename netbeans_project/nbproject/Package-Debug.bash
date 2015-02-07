@@ -6,7 +6,7 @@
 
 # Macros
 TOP=`pwd`
-CND_PLATFORM=GNU_Custom-MacOSX
+CND_PLATFORM=GNU_custom-MacOSX
 CND_CONF=Debug
 CND_DISTDIR=dist
 CND_BUILDDIR=build

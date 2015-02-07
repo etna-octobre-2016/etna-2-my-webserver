@@ -31,10 +31,10 @@ void testMySQL()
       sql::Connection   *con;
       sql::Statement    *stmt;
       sql::ResultSet    *res;
-
+      
       /* Create a connection */
       driver = sql::mysql::get_driver_instance();
-      con = driver->connect("tcp://127.0.0.1:3306", "root", "root");
+      con = driver->connect("tcp://127.0.0.1:3306", "root", "");
       
       /* Connect to the MySQL test database */
       con->setSchema("test-cpp");
