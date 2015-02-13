@@ -15,13 +15,13 @@ NM=nm
 CCADMIN=CCadmin
 RANLIB=ranlib
 CC=gcc-4.9
-CCC=g++
-CXX=g++
+CCC=g++-4.9
+CXX=g++-4.9
 FC=gfortran
 AS=as
 
 # Macros
-CND_PLATFORM=GNU_custom-MacOSX
+CND_PLATFORM=GNU_Custom-MacOSX
 CND_DLIB_EXT=dylib
 CND_CONF=Release
 CND_DISTDIR=dist

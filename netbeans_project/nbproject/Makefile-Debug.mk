@@ -15,13 +15,13 @@ NM=nm
 CCADMIN=CCadmin
 RANLIB=ranlib
 CC=gcc-4.9
-CCC=g++
-CXX=g++
+CCC=g++-4.9
+CXX=g++-4.9
 FC=gfortran
 AS=as
 
 # Macros
-CND_PLATFORM=GNU_custom-MacOSX
+CND_PLATFORM=GNU_Custom-MacOSX
 CND_DLIB_EXT=dylib
 CND_CONF=Debug
 CND_DISTDIR=dist
@@ -52,13 +52,15 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=lib/mysql-connector/lib/libmysqlcppconn-static.a
+LDLIBSOPTIONS=lib/mysql-connector/lib/libmysqlcppconn-static.a lib/sqlite/libsqlite.a
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
 	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/netbeans_project
 
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/netbeans_project: lib/mysql-connector/lib/libmysqlcppconn-static.a
+
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/netbeans_project: lib/sqlite/libsqlite.a
 
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/netbeans_project: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
